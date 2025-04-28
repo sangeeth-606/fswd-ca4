@@ -63,7 +63,7 @@ function App() {
 
       <div>
         {movies.map((movie, i) => (
-          <div key={i} className="movie-item">
+          <div key={i}>
             <h3>
               Movie Title: {movie.title} (Rating: {movie.rating})
             </h3>
